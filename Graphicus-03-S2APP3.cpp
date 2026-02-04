@@ -2,10 +2,19 @@
 //
 
 #include <iostream>
+#include <QApplication>
+#include "projectDefinitions.h"
 
-int main()
+int main(int argc, char* argv[])
 {
-    std::cout << "Hello World!\n";
+    QApplication app(argc, argv);
+
+    // Constructor title
+    ProjectDefinitions gui("Graphicus-03");
+
+    gui.resize(1200, 800);
+
+    return app.exec();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

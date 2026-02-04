@@ -21,18 +21,68 @@
     <ClCompile Include="Graphicus-03-S2APP3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="projectDefinitions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cercle.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="couche.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="forme.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rectangle.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="canevas.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="carre.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\Desktop\Sherbrooke\S2\APP3\graphicusgui\centralWidget.h">
+    <QtMoc Include="centralWidget.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\Desktop\Sherbrooke\S2\APP3\graphicusgui\graphicusGUI.h">
+    </QtMoc>
+    <QtMoc Include="graphicusGUI.h">
       <Filter>Header Files</Filter>
-    </ClInclude>
+    </QtMoc>
+    <QtMoc Include="projectDefinitions.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\..\Desktop\Sherbrooke\S2\APP3\graphicusgui\graphicusGUI.lib">
-      <Filter>Libraries</Filter>
-    </Library>
+    <None Include="graphicusGUI.pro">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="carre.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cercle.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coordonnee.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="couche.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="forme.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rectangle.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="vecteur.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="canevas.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
