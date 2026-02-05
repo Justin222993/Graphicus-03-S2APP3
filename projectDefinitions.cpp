@@ -213,11 +213,11 @@ void ProjectDefinitions::formeDerniere() {
 }
 
 void ProjectDefinitions::afficherGUI() {
-    // 1. Initialisation complète à zéro pour éviter les nombres bizarres (ex: -858993460)
+    // reset info
     Informations info = {};
     ostringstream os;
 
-    // --- NIVEAU CANEVAS ---
+    // Canevas
     info.nbCouches = canevas.getNombreDeCouches();
     info.coucheActive = canevas.getCoucheActiveIndex();
     info.aireCanevas = canevas.aire();
@@ -283,8 +283,9 @@ void ProjectDefinitions::afficherGUI() {
         info.informationForme[0] = '-'; info.informationForme[1] = '\0';
     }
 
-    // --- ENVOI ET DESSIN ---
     this->setInformations(info);
+
+    // Reset le dessin
     os.str("");
     os.clear();
     canevas.afficher(os);
