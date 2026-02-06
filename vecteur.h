@@ -2,8 +2,6 @@
 #define VECTEUR_H
 
 #include <iostream>
-#include <stdexcept>
-#include <type_traits>
 
 using namespace std;
 
