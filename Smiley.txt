@@ -1,0 +1,26 @@
+# Oeil gauche
+L a
+K 20 20 5
+C 20 20 5
+
+# Oeil droit
+L a
+K 50 20 5
+C 50 20 5
+
+# Bouche (sourire)
+L a
+K 15 40 5
+R 15 40 5 5
+L a
+K 20 45 5
+R 20 45 5 5
+L a
+K 25 50 5
+R 25 50 20 5
+L a
+K 45 45 5
+R 45 45 5 5
+L a
+K 50 40 5
+R 50 40 5 5

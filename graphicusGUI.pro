@@ -14,13 +14,11 @@ SOURCES      += Graphicus-03-S2APP3.cpp \
                 projectDefinitions.cpp \
                 canevas.cpp \
                 couche.cpp \
-                vecteur.cpp \
                 forme.cpp \
                 carre.cpp \
                 cercle.cpp \
-                rectangle.cpp \
-                tests.cpp
+                rectangle.cpp
 
-INCLUDEPATH += ../Libraries
-LIBS        += ../Libraries/graphicusGUI.lib
+INCLUDEPATH += ./Libraries
+LIBS        += ./Libraries/graphicusGUI.lib
 QT          += widgets
